@@ -77,8 +77,22 @@ img {
 @media screen and (max-width:420px) {
 
 /* GENERAL */
-html, body{
+*{
   margin: 0;
+}
+
+h3, h1{
+  margin: 0;
+}
+
+/* FONT-SIZE */
+h1{
+  font-size: 3.5em;
+  padding-top: 10px;
+}
+
+.left{
+  font-size: 2em;
 }
 
 /* SEZIONE LEZIONI */
@@ -88,10 +102,13 @@ html, body{
 
 #lezioni .row > .left,
 #lezioni .row > .right{
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 100%;
 }
 
-#lezioni h1, #lezioni > .row{
+#lezioni > .row{
   margin: 0;
 }
 
@@ -105,6 +122,7 @@ html, body{
   width: 100%;
 }
 
+/* SEZIONE WHY */
 #why > .row{
   background-color: #f2f2cd;
 }
