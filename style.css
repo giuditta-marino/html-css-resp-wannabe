@@ -79,20 +79,40 @@ img {
 /* GENERAL */
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h3, h1{
   margin: 0;
 }
 
-/* FONT-SIZE */
 h1{
-  font-size: 3.5em;
   padding-top: 10px;
 }
 
-.left{
-  font-size: 2em;
+img{
+  height: 90px;
+}
+/* FONT-SIZE */
+h1{
+  font-size: 1.5em;
+}
+
+h3{
+  font-size: 1em;
+}
+
+.row{
+  width: 100%;
+  padding: 6px 13px;
+  line-height: 15px;
+  margin: 0;
+}
+
+#lezioni .left, #lezioni .right, #steps .left, #steps .central, #steps .right, #why .first, #why .second, #why .third{
+  font-size: 0.75em;
+  padding-top: 15px;
 }
 
 /* SEZIONE LEZIONI */
@@ -102,19 +122,11 @@ h1{
 
 #lezioni .row > .left,
 #lezioni .row > .right{
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
   width: 100%;
-}
-
-#lezioni > .row{
-  margin: 0;
 }
 
 /* SEZIONE STEPS */
 #steps > .row{
-  margin: 0;
   background-color: #ffffff;
 }
 
@@ -125,10 +137,20 @@ h1{
 /* SEZIONE WHY */
 #why > .row{
   background-color: #f2f2cd;
+  margin-top: 0;
+}
+
+#why > .row{
+  margin-top: 0;
 }
 
 #why hr{
-  width: 95%;
   border-color: #000000;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third{
+  margin-top: 0;
 }
 }
